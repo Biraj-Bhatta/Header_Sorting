@@ -16,13 +16,13 @@ This project implements multiple sorting algorithms in the C programming languag
 
 ## 📁 File Structure
 ```
-sorting-project/
+SortingHeaderFile
 ├── main.c          # Contains the main() function to test sorting
 ├── functions.c       # Implements all sorting algorithms
 ├── sort.h          # Header file declaring all public functions
 ├── Makefile        # Compiles the project
 └── README.md       # Project documentation
-
+```
 
 - `functions.c` – Contains all function definitions and logic for sorting algorithms.
 
