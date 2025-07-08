@@ -15,7 +15,7 @@ This project implements multiple sorting algorithms in the C programming languag
 ---
 
 ## 📁 File Structure
-
+```
 sorting-project/
 ├── main.c          # Contains the main() function to test sorting
 ├── functions.c       # Implements all sorting algorithms
