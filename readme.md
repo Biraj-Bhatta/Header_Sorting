@@ -113,3 +113,12 @@ Sorts the array using the **Heap Sort** algorithm.
 ```bash
 gcc main.c functions.c -o main
 ./main.exe
+'''
+
+### To run though make file
+'''bash
+make   #To make .exe file
+make clean   #To remove the file created by make
+make clean all   #To rebuid the program again from scratch
+'''
+
