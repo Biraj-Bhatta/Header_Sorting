@@ -15,13 +15,15 @@ This project implements multiple sorting algorithms in the C programming languag
 ---
 
 ## 📁 File Structure
+
 ```
-SortingHeaderFile
-├── main.c          # Contains the main() function to test sorting
-├── functions.c       # Implements all sorting algorithms
-├── sort.h          # Header file declaring all public functions
-├── Makefile        # Compiles the project
-└── README.md       # Project documentation
+sorting_header
+ └──SortingHeaderFile
+ |   ├── main.c          # Contains the main() function to test sorting
+ |   ├── functions.c       # Implements all sorting algorithms
+ |   ├── sort.h          # Header file declaring all public functions
+ |   └── Makefile        # Compiles the project
+ └── readme.md
 ```
 
 - `functions.c` – Contains all function definitions and logic for sorting algorithms.
@@ -31,15 +33,18 @@ SortingHeaderFile
 ## 📌 Function Documentation
 
 ### 🔹 `void display(int arr[], int size)`
+
 Prints the contents of an array.
 
 **Parameters:**
+
 - `arr[]`: Array to display.
 - `size`: Number of elements in the array.
 
 ---
 
 ### 🔹 `void bubblesort(int arr[], int size)`
+
 Sorts the array using the **Bubble Sort** algorithm.
 
 **Time Complexity:** O(n²)
@@ -47,6 +52,7 @@ Sorts the array using the **Bubble Sort** algorithm.
 ---
 
 ### 🔹 `void selectionsort(int arr[], int size)`
+
 Sorts the array using the **Selection Sort** algorithm.
 
 **Time Complexity:** O(n²)
@@ -54,6 +60,7 @@ Sorts the array using the **Selection Sort** algorithm.
 ---
 
 ### 🔹 `void insersionSort(int arr[], int size)`
+
 Sorts the array using the **Insertion Sort** algorithm.
 
 **Time Complexity:** O(n²)
@@ -61,6 +68,7 @@ Sorts the array using the **Insertion Sort** algorithm.
 ---
 
 ### 🔹 `void mergesort(int arr[], int start, int end)`
+
 Sorts the array using the **Merge Sort** algorithm (wrapper function).
 
 **Note:** Subtracts 1 from `end` to pass correct bounds.
@@ -70,15 +78,18 @@ Sorts the array using the **Merge Sort** algorithm (wrapper function).
 ---
 
 ### 🔹 `void mergeSort(int arr[], int start, int end)`
+
 Recursive **Merge Sort** logic.
 
 **Parameters:**
+
 - `start`: Starting index.
 - `end`: Ending index.
 
 ---
 
 ### 🔹 `void quicksort(int arr[], int length)`
+
 Sorts the array using the **Quick Sort** algorithm.
 
 **Time Complexity:** O(n log n) average
@@ -86,6 +97,7 @@ Sorts the array using the **Quick Sort** algorithm.
 ---
 
 ### 🔹 `void heapsort(int arr[], int size)`
+
 Sorts the array using the **Heap Sort** algorithm.
 
 **Time Complexity:** O(n log n)
@@ -116,9 +128,11 @@ gcc main.c functions.c -o main
 ```
 
 ### To run though make file
+
 ````bash
 make   #To make .exe file
 make clean   #To remove the file created by make
 make clean all   #To rebuid the program again from scratch
-``` 
+```
 
+````
